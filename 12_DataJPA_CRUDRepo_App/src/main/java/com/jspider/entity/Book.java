@@ -9,7 +9,7 @@ import lombok.Data;
 public class Book {
 
 	@Id
-	private int bookId;
+	private Integer bookId;
 	private String bookName;
-	private double bookPrice;
+	private Double bookPrice;
 }
