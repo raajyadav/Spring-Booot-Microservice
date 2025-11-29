@@ -1,0 +1,721 @@
+
+[2025-11-29T01:09:01.805580900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:09:02.002570900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:09:02.483883300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:02.484388600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:09:02.487405400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:02.487405400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:04.450966400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:04.450966400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:09:04.457803600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:04.457803600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:04.479015+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:09:04.479015+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:09:05.359713900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:05.359713900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:09:05.364824300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:05.364824300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:08.355426100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:08.356422+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:09:08.379350400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:09:08.380346200+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:09:08.381342900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:08.381342900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:09.441816300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:09.442812500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:09:09.443808800+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:09.444805100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:20.304534900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:20.305531600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:09:20.307524900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:20.307524900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:20.354367500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:09:20.355812400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:09:21.695289900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:21.696283800+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:09:21.698277100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:21.698277100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:21.733668900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:21.734665100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:09:21.736658500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:21.736658500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:21.753602300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:09:21.754598700+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:09:22.644152+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:22.645148900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:09:22.646145+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:22.647142300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:25.829764200+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:25.830759800+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:09:25.858499800+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:25.858499800+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:25.862487200+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:09:25.862487200+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:09:27.031118400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:27.032115400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:09:27.033111400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:27.034109800+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:27.065465900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:27.066463500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:09:27.067458900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:27.068457+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:27.079419200+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:09:27.080415600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:09:28.077937200+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:28.079028+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:09:28.108504900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:28.108504900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:28.494285100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:28.495760700+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:09:28.497754400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:28.498750100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:28.507746200+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:09:28.508747300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:09:29.355404600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:29.355404600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:09:29.359459300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:29.359459300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:32.438602900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:32.439599700+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:09:32.441593100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:32.441593100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:32.452555500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:09:32.452555500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:09:33.134426600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:33.135533600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:09:33.136533700+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:33.136533700+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:33.159082600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:33.160080200+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:09:33.161076100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:33.161076100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:33.172841300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:09:33.172841300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:09:33.880958800+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:33.880958800+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:09:33.882953+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:33.882953+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:35.261567900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:35.262565+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:09:35.263561400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:35.264559500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:35.274525300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:09:35.275522400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:09:35.942554200+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:35.943958600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:09:35.945256100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:35.945256100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:35.973278200+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:35.974275300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:09:35.975864700+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:35.975864700+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:35.985207200+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:09:35.986204200+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:09:36.677705600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:36.679050600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:09:36.681049100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:36.681049100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:38.290952800+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:38.291947700+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:09:38.292946+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:38.292946+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:38.304041400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:09:38.304041400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:09:38.937310200+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:38.937310200+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:09:38.938556+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:38.938556+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:38.969736+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:38.969736+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:09:38.970740+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:38.971736300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:09:38.980371600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:09:38.980371600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:09:39.650520900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:09:39.651525800+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:09:39.652525800+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:09:39.653522+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:11:16.842608200+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:11:16.844014900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:11:16.846997100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:11:16.846997100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:11:16.862200400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:11:16.863196400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:11:17.808695100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:11:17.808695100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:11:17.810896900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:11:17.812893800+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:11:17.841314500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:11:17.842311600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:11:17.843308400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:11:17.844304500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:11:17.855268800+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:11:17.855268800+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:11:18.602488100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:11:18.603490600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:11:18.604488300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:11:18.604488300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:11:24.577266800+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:11:24.577266800+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:11:24.578620400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:11:24.579625400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:11:24.586812500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:11:24.586812500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:11:25.209635800+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:11:25.210882600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:11:25.213188700+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:11:25.213188700+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:11:25.236742200+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:11:25.236742200+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:11:25.238732100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:11:25.238732100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:11:25.248315100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:11:25.248315100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:11:25.910953800+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:11:25.910953800+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:11:25.912003700+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:11:25.913000500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:11:27.426453400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:11:27.427450300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:11:27.427450300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:11:27.428517+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:11:27.436875+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:11:27.437872500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:11:28.077929700+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:11:28.077929700+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:11:28.078926600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:11:28.078926600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:11:28.099958900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:11:28.099958900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:11:28.100952900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:11:28.101949500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:11:28.109921600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:11:28.110918300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:11:28.768360300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:11:28.769358300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:11:28.770354400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:11:28.770354400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:11:30.192478600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:11:30.193590300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:11:30.194650400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:11:30.194650400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:11:30.203133300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:11:30.204129300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:11:30.851691900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:11:30.852689500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:11:30.853193600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:11:30.854197800+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:11:30.879704100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:11:30.880701400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:11:30.881699100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:11:30.881699100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:11:30.889922900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:11:30.890921500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:11:31.579822700+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:11:31.579822700+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:11:31.580869100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:11:31.581867100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:11:37.427079500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:11:37.427079500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:11:37.429080300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:11:37.429080300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:11:37.437318100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:11:37.437318100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:11:38.078501600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:11:38.079499700+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:11:38.081520900+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:11:38.082516500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:11:39.341865600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:11:39.341865600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:11:39.343866200+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:11:39.343866200+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:11:39.352841500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 4207
+
+
+[2025-11-29T01:11:39.352841500+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":17520,"rootPath":"/D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","rootUri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo","changeAnnotationSupport":{"groupsOnLabel":true}},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true,"configuration":true,"codeLens":{"refreshSupport":true}},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"],"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]}},"contextSupport":true,"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"onTypeFormatting":{"dynamicRegistration":true},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"publishDiagnostics":{},"foldingRange":{"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"selectionRange":{},"inlayHint":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Spring Tools for Eclipse","version":"0.18.26.202508141023"},"trace":"off","workspaceFolders":[{"uri":"file:///D:/spring-boot-practise/03-IOC-App/","name":"03-IOC-App"},{"uri":"file:///D:/spring-boot-practise/06-Spring-Annotation-App/","name":"06-Spring-Annotation-App"},{"uri":"file:///D:/spring-boot-practise/07-Spring-Autowiring-App/","name":"07-Spring-Autowiring-App"},{"uri":"file:///D:/spring-boot-practise/08-Bean-LifeCycle-App/","name":"08-Bean-LifeCycle-App"},{"uri":"file:///D:/spring-boot-practise/09-SB-First-App/","name":"09-SB-First-App"},{"uri":"file:///D:/spring-boot-practise/10-SB-Banner-App/","name":"10-SB-Banner-App"},{"uri":"file:///D:/spring-boot-practise/11-SB-Runner-App/","name":"11-SB-Runner-App"},{"uri":"file:///D:/spring-boot-practise/12_DataJPA_CRUDRepo_App/","name":"12_DataJPA_CRUDRepo_App"},{"uri":"file:///D:/spring-boot-practise/13_DataJPA_JpaRepo_App/","name":"13_DataJPA_JpaRepo_App"},{"uri":"file:///D:/spring-boot-practise/14_DataJPA_JpaRepo_TimeStamping_And_Generator_App/","name":"14_DataJPA_JpaRepo_TimeStamping_And_Generator_App"},{"uri":"file:///D:/spring-boot-practise/15_DataJPA_Composite_PK_App/","name":"15_DataJPA_Composite_PK_App"},{"uri":"file:///D:/spring-boot-practise/16_Web_MVC_App1/","name":"16_Web_MVC_App1"},{"uri":"file:///D:/spring-boot-practise/17_Web_MVC_Book_App/","name":"17_Web_MVC_Book_App"},{"uri":"file:///D:/spring-boot-practise/18_Web_MVC_Student_App1/","name":"18_Web_MVC_Student_App1"},{"uri":"file:///D:/spring-boot-practise/19_Web_MVC_Student_With_DB_App2/","name":"19_Web_MVC_Student_With_DB_App2"},{"uri":"file:///D:/spring-boot-practise/20_Web_MVC_H2_DB_Product_App/","name":"20_Web_MVC_H2_DB_Product_App"},{"uri":"file:///D:/spring-boot-practise/21_Web_MVC_Thymeleaf_App/","name":"21_Web_MVC_Thymeleaf_App"},{"uri":"file:///C:/Users/Raaj%20Yadav/Downloads/BootApp%20(1)/BootApp/","name":"BootApp"},{"uri":"file:///D:/spring-boot-practise/dependencyInjection/","name":"dependencyInjection"},{"uri":"file:///D:/spring-boot-practise/paymentApplication/","name":"paymentApplication"}]}}
+[2025-11-29T01:11:40.036947300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:11:40.036947300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"2","method":"shutdown","params":null}
+[2025-11-29T01:11:40.037938700+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:11:40.039087300+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[2025-11-29T01:14:39.054027600+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 60
+
+
+[2025-11-29T01:14:39.055024100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","id":"3","method":"shutdown","params":null}
+[2025-11-29T01:14:39.056019100+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+Content-Length: 47
+
+
+[2025-11-29T01:14:39.057013400+05:30] LSP4E_TO_LANGUAGE_SERVER org.eclipse.wildwebdeveloper.angular:
+{"jsonrpc":"2.0","method":"exit","params":null}
