@@ -1,0 +1,11 @@
+{
+	"id": 101,
+	"name": "Raj",
+	"email": "raj@gmail.com",
+	"phno": 2244566662,
+	"address": {
+		"city": "Noida",
+		"state": "UP",
+		"country": "India"
+	}
+}
