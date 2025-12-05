@@ -48,7 +48,7 @@ public class MakeMyTripServiceImpl implements MakeMyTripService {
 		
 //		send get request and map response to Ticket Obj
 		Ticket ticket =  webClient.get()
-		                          .uri(GET_TICKET_URL)
+		                          .uri(GET_TICKET_URL,ticketNumber)
 		                          .retrieve()
 		                          .bodyToMono(Ticket.class)
 		                          .block();
