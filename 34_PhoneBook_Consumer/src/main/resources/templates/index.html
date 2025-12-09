@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>PhoneBook Form</title>
+</head>
+<body>
+
+<h1>Add Contact Here</h1>
+  <p th:text="${msg}">
+
+
+	<form th:action="@{/contacts}" th:object="${customer}"
+		method="POST">
+
+		<table>
+			<tr>
+			  <input type="hidden" th:field="*{pid}" />
+				<td>Name :</td>
+				<td><input type="text" th:field="*{name}"></td>
+			</tr>
+			<tr>
+				<td>Phone Number :</td>
+				<td><input type="number" th:field="*{phon}"></td>
+			</tr>
+			<tr>
+				<td>Email :</td>
+				<td><input type="email" th:field="*{email}"></td>
+			</tr>
+
+			
+			<tr>
+			   <td><input type="submit" value="Submit"></td>
+			   
+			</tr>
+
+		</table>
+
+	</form>
+	
+	<a href="contacts">View Contacts</a>
+</body>
+</html>
