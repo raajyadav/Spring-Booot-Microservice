@@ -33,7 +33,7 @@ public class SecurityConfigurer {
 	}
 
 	@Bean
-	public SecurityFilterChain securiyConfig(HttpSecurity http) {
+	public SecurityFilterChain securityConfig(HttpSecurity http) {
 		
 		http.authorizeHttpRequests( (req) ->
 		       req.requestMatchers("/contact").permitAll()
